@@ -12,4 +12,8 @@ func main() {
 
 	var numbers [5]string
 	fmt.Printf("Numbers : %q \n", numbers)
+
+	//Initialize in one line
+	num := [3]int{1, 2, 3}
+	fmt.Println(num)
 }
